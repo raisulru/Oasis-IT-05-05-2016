@@ -1,0 +1,416 @@
+@media screen and (max-width: 480px){
+	body{
+		font-size: normal;
+	}
+	p{
+		font-size: 13px;
+	}
+	#services p, 
+	.tech-detail p, 
+	#about p, 
+	#test-slider .test-content, 
+	#career p, 
+	#social-services .tab-pane p {
+    font-size: 13px;
+	}
+	#navigation .navbar-brand img{
+		 width: 40px;
+	}
+	
+	#top .col-md-2:first-child{
+		display: none;
+	}
+	#top .col-md-2:nth-child(5),
+	#top .col-md-2:nth-child(6){
+		float: left;
+		font-size: 16px;
+    	margin-left: 10px;
+	}
+	#top div.social{
+		width: 100%;
+		
+	}
+	
+	#top div.social ul li a{
+		font-size: 20px;
+	}
+	
+#main-slider .carousel-caption {
+    font-size: 40%;
+    bottom: 0;
+}
+	#navigation #myNavbar ul{
+		background-color: rgba(5,24,54,1);
+	}
+	#navigation #myNavbar ul li a{
+		font-size: 25px;
+		text-align: center;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+#tech h2 {
+    font-size: 20px;
+}
+	#tech .tech-icon ul li{
+	 	width: 45px;
+    	height: 45px;
+	}
+	#tech .tech-icon ul li a img{
+		width: 200%;
+		margin: 0px 0px 3px -6px;
+	}
+	#tech-slider .carousel-control {
+    width: 0px;
+    bottom: 20px;
+	}
+	#tech .tech-icon ul li.active:after{
+    left: 22%;
+    top: 55px;
+	}
+	.tech-detail p {
+    font-size: 14px;
+	}
+	.service-content h2 {
+    margin-top: 2%;
+    font-size: 150%;
+	}
+	.service-content>p {
+    margin: 16% 0% 16% 0%;
+    font-size: 12px;
+    line-height: 20px;
+}
+	#services .system button,
+	#services .training button,
+	#services .design-develop{
+	float: left;
+	}
+	#services .design-develop button {
+    position: relative;
+    z-index: 999;
+	}
+	#services .design-develop h3{
+		
+	}
+	#services .system-img img,
+	#services .design-img img,
+	#services .training-img img{
+	width: 100%;
+	}
+	#team h2{
+		width: 50%;
+		font-size: 18px;
+	}
+	#team .team-info .team-detail{
+	display: none;	
+	}
+	#team ul.nav li a {
+    font-size: 80%;
+	}
+	#team .span4.carousel-block{
+	width: 10%;
+	}
+	#team ul.nav{
+	font-size: 17px;	
+	}
+	#galary ul.nav li{
+	height: 90px;
+    width: 28%;
+    margin: 5px 0 5px 10px;
+	}
+	#galary ul.nav li a{
+	height: 90px;
+    width: 100%;
+    border: none;
+    color: rgb(0,0,0);
+    font-size: 130%;
+    padding: 14px;
+	}
+	#galary .counter,
+	#galary .total{
+	bottom: 40px;
+	}
+	#galary .carousel-control {
+    width: 7%;
+    height: 61%;
+    background-color: rgba(255,255,255,1);
+    background-image: none;
+    top: 24%;
+	}
+	#testimony h2 {
+    width: 73%;
+	}
+	#testimony .test-id {
+    bottom: -37px;
+    right: 0%;
+	}
+
+	#testimony div.img {
+    width: 100px;
+    height: 100px;
+    right: 0%;
+	}
+	#career-cv input[type=submit] {
+    right: 0;
+	}
+	#career-cv input[type=button]{
+	bottom: 26px;
+	}
+	#social-services .tab-content .carousel .carousel-control {
+    width: 30px;
+    top: 25%;
+	}
+	#social-services .tab-content .carousel .item {
+    height: 335px;
+	}
+	#social-services ul.main-tab li a img {
+    height: 30px;
+	}
+	#social-services .main-tab h3 {
+    width: 40%;
+	}
+	#social-services ul.sub-tab li:first-child,
+	#social-services ul.sub-tab li:last-child {
+    padding: 0px 8px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+	}
+	#contact .form {
+    bottom: 0px;
+    width: 100%;
+	}
+	#adress ul li.heading{
+	border: none;
+	}
+
+}
+@media (min-width: 481px) and (max-width: 768px){
+	body{
+		font-size: normal;
+	}
+	p{
+		font-size: 16px;
+	}
+	#services p, 
+	.tech-detail p, 
+	#about p, 
+	#test-slider .test-content, 
+	#career p, 
+	#social-services .tab-pane p {
+    font-size: 16px;
+	}
+	#navigation .navbar-brand img{
+		 width: 50px;
+	}
+	#top .col-md-2 ul{
+	display: flex;
+	justify-content: space-around;
+		
+	}
+	#top .col-md-2:nth-child(5),
+	#top .col-md-2:nth-child(6){
+		float: left;
+		font-size: 20px;
+    	margin-left: 60px;
+	}
+	#top div.social{
+		width: 100%;
+		
+	}
+	
+	#top div.social ul li a{
+		font-size: 20px;
+	}
+	
+#main-slider .carousel-caption {
+    font-size: 65%;
+    bottom: 0;
+}
+	#navigation #myNavbar ul{
+		width: 70%;
+	}
+	#navigation #myNavbar ul li a{
+		font-size: 18px;
+		text-align: center;
+		font-weight: bold;
+	}
+#tech h2 {
+    font-size: 20px;
+}
+	#tech .tech-icon ul li{
+	 	width: 60px;
+    height: 60px;
+	}
+	#tech .tech-icon ul li a img{
+		width: 150%;
+    margin: 0px 0px 0px -6px;
+	}
+	#tech-slider .carousel-control {
+    width: 0px;
+    bottom: 20px;
+	}
+	#tech .tech-icon ul li.active:after{
+    left: 22%;
+    top: 70px;
+	}
+	.tech-detail p {
+    font-size: 14px;
+	}
+	.service-content h2 {
+    margin-top: 2%;
+    font-size: 150%;
+	}
+	.service-content>p {
+    margin: 16% 0% 16% 0%;
+    font-size: 12px;
+    line-height: 20px;
+}
+	#services .system button,
+	#services .training button,
+	#services .design-develop{
+	float: left;
+	}
+#services p {
+    font-size: 16px;
+    margin-top: 154px;
+}
+	#services .services {
+    
+    background-size: cover;
+}
+	#services .design-develop button {
+    position: relative;
+    z-index: 999;
+	}
+	#services .design-develop h3{
+		
+	}
+	#services .system-img img,
+	#services .design-img img,
+	#services .training-img img{
+	width: 100%;
+	}
+	#team h2{
+		width: 50%;
+		font-size: 25px;
+	}
+	#team .team-info .team-detail{
+		
+	}
+	#team ul.nav li a {
+    font-size: 100%;
+	}
+	#team .span4.carousel-block{
+	width: 4.9%;
+	}
+	#team ul.nav{
+	font-size: 17px;	
+	}
+	#galary ul.nav li{
+	height: 90px;
+    width: 28%;
+    margin: 5px 0 5px 10px;
+	}
+	#galary ul.nav li a{
+	height: 90px;
+    width: 100%;
+    border: none;
+    color: rgb(0,0,0);
+    font-size: 130%;
+    padding: 14px;
+	}
+	#galary .counter,
+	#galary .total{
+	bottom: 40px;
+	}
+	#galary .carousel-control {
+    width: 7%;
+    height: 41%;
+    background-color: rgba(255,255,255,1);
+    background-image: none;
+    top: 30%;
+	}
+	#testimony h2 {
+    width: 73%;
+	}
+	#testimony .test-id {
+    bottom: -37px;
+    right: 0%;
+	}
+
+	#testimony div.img {
+    width: 100px;
+    height: 100px;
+    right: 0%;
+	}
+	#career-cv input[type=submit] {
+    right: 0;
+	}
+	#career-cv input[type=button]{
+	bottom: 26px;
+	}
+	#social-services .tab-content .carousel .carousel-control {
+    width: 30px;
+    top: 25%;
+	}
+	#social-services .tab-content .carousel .item {
+    height: 335px;
+	}
+	#social-services ul.main-tab li a img {
+    height: 30px;
+	}
+	#social-services .main-tab h3 {
+    width: 40%;
+	}
+	#social-services ul.sub-tab li:first-child,
+	#social-services ul.sub-tab li:last-child {
+    padding: 0px 8px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+	}
+	#contact .form {
+    bottom: 0px;
+    width: 100%;
+	}
+	#adress ul li.heading{
+	border: none;
+	}
+
+}
+@media (min-width: 769px) and (max-width: 1000px) {
+	#top .col-sm-2 .fa-mobile{
+	position: relative;
+	bottom: 18px;	
+	}
+	#top .col-sm-2{
+	width: 30%;
+	display: inline-block;
+}
+#navigation #myNavbar ul li {
+    margin-left: 3%;
+}
+#navigation #myNavbar ul {
+    width: 65%;
+}
+#services .system-img img,
+#services .design-img img,
+#services .training-img img {
+    width: 100%;
+    float: right;
+}
+#team .span4.carousel-block {
+    width: 3.15%;
+}
+.instant-mail>form>input{
+bottom: 35px;
+}
+.instant-mail>form>i{
+bottom: 40px;
+}
+}
+@media (min-width: 1400px){
+	
+	#services .services {
+    
+    background-size: cover;
+}
+}

@@ -1,0 +1,2421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title for web page -->
+	<title>Oasis IT</title>
+	<!-- link for bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- link for google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<!-- link for title image -->
+	<link rel="shortcut icon" href="img/icon.png">
+	<!-- link for carouseller css -->
+	<link rel="stylesheet" href="css/carouseller.css">
+	<!-- link for fontawesome css -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- link for animate css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- link for main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- link for responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- link for jquery -->
+	<script src="js/jquery-2.2.0.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <!-- navigation bar -->
+    <div id="navigation" class="animated fadeInDown" data-spy="affix" data-offset-top="20">
+    	<nav class="navbar">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand" href="#">
+		      	<img src="img/white_logo.png" class="img-responsive" alt="logo-img">
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right" style="display: ;">
+		        <li class="active"><a class="scroll" href="#main-slider">Home</a></li>
+		        <li><a class="scroll" href="#services">Services</a></li>
+		        <li><a class="scroll" href="#about">About</a></li> 
+		        <li><a class="scroll" href="#career">Career</a></li>
+		        <li><a class="scroll" href="#contact">Contact</a></li> 
+		        <li><a id="search-icon"><i class="fa fa-search"></i></a></li>
+		      </ul>
+		      <div id="search" class="navbar-right" style="display: none;">
+					<p>Menu</p>
+					<form class="search" method="get" action="http://oasis.com.bd">
+						<input type="text" value="Search..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search...';}" style="width: 2%;">
+					</form>
+				</div>
+		    </div>
+		  </div>
+		</nav>
+    </div>
+    <!-- slider -->
+    <div id="main-slider" class="wow fadeIn" data-wow-duration="2s">
+    	<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="false">
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      
+		      <div class="carousel-title">
+		        <h3 class="animated fadeInDown">Encase The Goal</h3>
+		        
+		      </div>
+		    </div>
+		    <div class="item">
+		      
+		      <div class="carousel-title">
+		        
+		        <h3 class="animated fadeInDown">Enrich With Power</h3>
+		        
+		      </div>
+		    </div>
+		    <div class="item">
+		      
+		      <div class="carousel-title">
+		       
+		        <h3 class="animated fadeInDown">Endeavor To Touch</h3>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+    </div>
+
+    <!-- Technology we use -->
+    <div id="tech">
+    	<h2>Technology we use</h2>
+    	<!-- technology icon slider -->
+    	<div class="tech-icon wow fadeInUp" data-wow-offset="200">
+    		<div class="container">
+    		<div id="tech-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+				  
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#cloud" aria-controls="cloud" role="tab" data-toggle="tab"><img src="img/2000px-Cloud_computing_icon.svg.png" alt="cloud"></a></li>
+
+				    <li role="presentation"><a href="#security" aria-controls="security" role="tab" data-toggle="tab"><img src="img/2000px-Monitor_padlock.svg.png" alt="security"></a></li>
+
+				    <li role="presentation"><a href="#python" aria-controls="python" role="tab" data-toggle="tab"><img src="img/2000px-Python_and_Qt_2.svg.png" alt="python"></a></li>
+
+				    <li role="presentation"><a href="#tux" aria-controls="tux" role="tab" data-toggle="tab"><img src="img/2000px-Tux.svg.png" alt="tux"></a></li>
+
+				    <li role="presentation"><a href="#wifi" aria-controls="wifi" role="tab" data-toggle="tab"><img src="img/2000px-Wifi.svg.png" alt="router"></a></li>
+				  </ul>
+			      
+			    </div>
+
+
+			    <div class="item">
+			      <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation"><a href="#w3" aria-controls="w3" role="tab" data-toggle="tab"><img src="img/2000px-WWW_logo_by_Robert_Cailliau.svg.png" alt="w3"></a></li>
+
+				    <li role="presentation"><a href="#centos" aria-controls="centos" role="tab" data-toggle="tab"><img src="img/centos-logo.png" alt="centos"></a></li>
+
+				    <li role="presentation"><a href="#django" aria-controls="django" role="tab" data-toggle="tab"><img src="img/django_badge.sh-600x600.png" alt="django"></a></li>
+
+				    <li role="presentation"><a href="#php" aria-controls="php" role="tab" data-toggle="tab"><img src="img/PHP-logo.svg.png" alt="php"></a></li>
+
+				    <li role="presentation"><a href="#openstack" aria-controls="openstack" role="tab" data-toggle="tab"><img src="img/The_OpenStack_logo.svg.png" alt="openstack"></a></li>
+				  </ul>
+			      
+			    </div>
+
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#tech-slider" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    
+			  </a>
+			  <a class="right carousel-control" href="#tech-slider" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    
+			  </a>
+			</div>
+			</div>
+    	</div>
+    	<div class="tech-detail">
+    		<div class="container">
+    		<div class="tab-content">
+
+		    <div role="tabpanel" class="tab-pane fade in active" id="cloud">
+		    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum pariatur fuga, inventore autem illo! Ipsum amet dolorem molestiae nesciunt odit, doloribus autem voluptatem eius maiores sit. Omnis, tempore necessitatibus cum?</span><span>Esse ipsam accusamus repellat non praesentium cumque modi, sit quam culpa repellendus ducimus. Iste, eum assumenda laboriosam quas nesciunt, similique temporibus quia, praesentium odit tempore obcaecati accusamus nostrum, quod? Laudantium.</span></p>
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="security">
+		    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, voluptate nisi fugit quos minus! Consequuntur praesentium suscipit et impedit quaerat tempora, nisi fugit sed, officiis quae delectus ad quia!</p>
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="python">
+		    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum cum voluptatibus necessitatibus nulla vero eum, nihil ut consequuntur quam. Aperiam ab ut minima officia natus praesentium voluptas ipsum error consequatur!</span>
+		    	<span>Incidunt nihil rem ipsum est explicabo aspernatur, tempora voluptas tempore architecto aliquid iure nesciunt! Nisi repellendus, ducimus eligendi fugit et voluptatibus exercitationem doloribus sed ex accusantium non dolorum omnis unde.</span>
+		    	<span>Fuga repellat officiis cumque amet illo totam a itaque ipsa facere, veritatis neque assumenda. Harum blanditiis quis cupiditate obcaecati. Libero sed, aliquid impedit sapiente ipsam esse, nam ullam quod laboriosam!</span></p>
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="tux">
+		    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam eos cum minus, rem cupiditate ut reprehenderit, ipsum numquam quisquam veritatis, aperiam non autem iusto porro soluta quis atque deserunt. Fuga!</p>
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="wifi">
+		    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nam cumque hic voluptates neque laborum ad. Deserunt rerum eos iusto sed, quod, facere velit libero expedita! Consequatur vel aliquid, assumenda.</span><span>Perspiciatis iure repudiandae, unde necessitatibus ipsum deleniti rem nisi. Nemo rem, reiciendis eveniet temporibus neque dolorum nulla vel eos dolorem rerum possimus saepe aperiam sed! Iusto in ipsa inventore, fuga?</span></p>
+		    </div>
+				
+			<div role="tabpanel" class="tab-pane fade" id="w3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nulla dicta voluptates culpa delectus unde ab voluptatem soluta velit earum, consequatur, quo quaerat voluptas quos corporis accusantium labore nesciunt nemo.</p>
+		    	<img src="img/2000px-WWW_logo_by_Robert_Cailliau.svg.png" alt="">
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="centos">
+		    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus fuga accusantium non? Iure voluptate eaque vitae accusamus, praesentium maxime unde voluptatem dicta pariatur similique obcaecati dolores, quas ut error.</p>
+		    	<img src="img/centos-logo.png" alt="centos">
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="django">
+		    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quam ullam laudantium nobis maxime facilis tempore optio debitis quibusdam molestiae perferendis, veniam voluptates, totam repellendus aspernatur. Dolor iure est perferendis.</span>
+		    	<span>Repudiandae at eveniet exercitationem, voluptate expedita adipisci perspiciatis animi, libero eius veniam qui soluta dolore doloremque vero dolor? Quo sed alias temporibus, reiciendis doloribus delectus! Eius, dicta veritatis dolorem nulla.</span>
+		    	<span>Architecto aperiam cupiditate a sed nihil doloribus accusamus, sapiente, ipsum, corporis odit fuga sequi non quos earum neque dolor dolorum inventore totam voluptates molestias perspiciatis veritatis, possimus iure molestiae. Eum!</span></p>
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="php">
+		    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facilis, quae vero accusamus pariatur eius delectus quaerat, quia esse autem illo unde ad officiis voluptas soluta molestias! Harum, repudiandae porro.</span><span>Nisi in, quis, vel similique quaerat sunt assumenda ipsa, eos quia consequuntur ipsam dicta commodi! Accusantium explicabo doloremque, laborum non, beatae ratione. Id a natus dolor inventore sint quae esse.</span></p>
+		    </div>
+
+		    <div role="tabpanel" class="tab-pane fade" id="openstack">
+		    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam recusandae dolorem error, dolorum quo, veniam cumque est dolores dignissimos minus nemo obcaecati sapiente? Nobis, voluptates quo soluta, eaque doloremque tempora!</p>
+		    </div>
+
+		  </div>
+    	</div>
+		</div>
+    </div>
+    <!-- technology end -->
+    <!-- our vision and combine -->
+    <div id="our-feature" class="clearfix">
+        <div class="container-fluid">
+           <div class="row">
+       		 <div class="col-md-4 wow fadeInUp" data-wow-offset="200">
+                <div class="our-vision">
+                	<img src="img/vision.jpg" class="img-responsive" alt="vision">
+                    <h3>our vision</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore. </p>
+                </div>
+            </div>    
+             <div class="col-md-4 wow fadeInUp" data-wow-offset="200">
+                <div class="team-img">
+                
+                </div>
+            </div>  
+             	<div class="col-md-4 wow fadeInUp" data-wow-offset="200">
+                	<div class="instant-mail">
+	                	<i class="fa fa-envelope-o"></i>
+	                    <h3>join with us</h3>
+	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod is dedd.</p>
+	                    <form action="#" method="get" accept-charset="utf-8">
+	                        
+	                    <input type="email" placeholder="email" >
+	                    <i class="fa fa-envelope-o"></i>
+	                    </form>
+                	</div>
+            	</div>  
+        	</div>
+        </div>
+    </div>
+    <!-- service section-->
+    <div id="services">
+    	<div class="services">
+	        <div class="container">
+	            <div class="row service-content wow fadeInUp" data-wow-offset="300">
+	            <h2>services</h2>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                consequat. Duis aute .</p>
+	            </div>
+	        </div>
+        </div>
+        <!-- bottom section of services  -->
+        <div class="services-detail clearfix">
+        	<div class="container">
+        	<!-- system integration  -->
+	        	<div class="system clearfix">
+	        		<div class="col-md-6 clearfix" style="padding-right: 0">
+	        			<h3>System Integration</h3>
+	        			
+					<div class="sys-content">
+	    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint suscipit provident quisquam eveniet repudiandae ducimus velit id reiciendis alias, consectetur corporis odit veniam voluptate dignissimos voluptatibus, veritatis cum quis aperiam!</p>
+	    			</div>
+	    			<button data-toggle="modal" data-target="#system-more"><i class="fa fa-angle-double-left fa-1x"></i><span>See More</span><i class="fa fa-angle-double-right fa-1x"></i></button>
+			    	</div>
+			    	<!-- system integration image -->
+	        		<div class="col-md-6 col-xs-12 clearfix">
+	        			<div class="system-img">
+	        				<img src="img/technology-wallpapers-hd-6-free-wallpaper.jpg" class="img-responsive wow fadeInUp" data-wow-offset="200" alt="system">
+	        			</div>
+	        		</div>
+	        	</div>
+	        	<!-- system integration more -->
+	        	<div id="system-more" class="modal clearfix">
+	        		<div class="container">
+	        			<h3>System Integration</h3>
+	        			<div class="col-md-8 clearfix">
+	        			<!-- system information details -->
+	        				<div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="system-1">
+							    	<h4>Heading</h4>
+							    	<img src="img/2000px-WWW_logo_by_Robert_Cailliau.svg.png" class="img-responsive" alt="system">
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repellendus, porro hic at alias accusamus consectetur illo maxime eveniet officia quidem beatae placeat natus amet dolore ad. Qui, quam, modi.</p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="system-2">
+							    	<h4>Heading</h4>
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis alias, fugiat impedit sequi excepturi eum a, error illum eos saepe commodi earum, fuga? Provident ipsa tempora adipisci, vitae impedit.</p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="system-3">
+							    	<h4>Heading</h4>
+							    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, pariatur voluptate non possimus eos voluptatum exercitationem laboriosam dolores, veniam accusantium impedit ipsam iste quaerat placeat obcaecati rerum deserunt fuga, cupiditate!</span>
+							    	<span>Impedit enim dicta ratione quam esse sint expedita! Odio, ipsam animi sapiente placeat iusto labore fugiat maxime possimus! Debitis impedit neque laudantium ipsa, natus, nisi repellendus culpa nemo est eveniet?</span>
+							    	<span>Reiciendis iste, debitis placeat totam sint eos vero ducimus adipisci, expedita dolor. Ipsa, accusantium dolorem atque reprehenderit esse quia pariatur? Rem omnis voluptatem minus ullam placeat rerum beatae, nostrum, expedita.</span></p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="system-4">
+							    	<h4>Heading</h4>
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odio earum quasi porro magnam. Quam, dolorum minima est soluta cupiditate ex corporis ratione harum dignissimos tempore. Repellendus, repellat ullam quae!</p>
+							    </div>
+							</div>
+
+	        			</div>
+	        			<div class="col-md-4 clearfix">
+	        			<!-- system information menu -->
+	        			<h4>Heading</h4>
+	        				<ul class="nav nav-tabs" role="tablist">
+						    <li role="presentation" class="active"><a href="#system-1" aria-controls="system-1" role="tab" data-toggle="tab">lorem ipsum dolar...<br>10 jun 2016</a></li>
+						    <li role="presentation"><a href="#system-2" aria-controls="system-2" role="tab" data-toggle="tab">lorem ipsum dolar...<br>12 jun 2016</a></li>
+						    <li role="presentation"><a href="#system-3" aria-controls="system-3" role="tab" data-toggle="tab">lorem ipsum dolar...<br>14 jun 2016</a></li>
+						    <li role="presentation"><a href="#system-4" aria-controls="system-4" role="tab" data-toggle="tab">lorem ipsum dolar...<br>16 jun 2016</a></li>
+						  </ul>
+	        			</div>
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        		</div>
+	        	</div>
+	        	<!-- system integration end -->
+	        	<!-- web design and development start -->
+	        	<div class="design-develop clearfix">
+	        		<div class="col-md-6 clearfix">
+	        			<div class="design-img">
+	        				<img src="img/web dsgn.jpg" class="img-responsive wow fadeInUp" data-wow-offset="200" alt="design">
+	        			</div>
+	        		</div>
+	        		<div class="col-md-6 clearfix" style="padding-left: 0">
+	        		<h3>Web Design & Development</h3>
+	        		<div class="design-content">
+	    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint suscipit provident quisquam eveniet repudiandae ducimus velit id reiciendis alias, consectetur corporis odit veniam voluptate dignissimos voluptatibus, veritatis cum quis aperiam!</p>
+	    			</div>
+	    			<button data-toggle="modal" data-target="#design-more"><i class="fa fa-angle-double-left fa-1x"></i><span>See our excellent design here</span><i class="fa fa-angle-double-right fa-1x"></i></button>
+	        		</div>
+	        	</div>
+	        	<!-- design & development more -->
+	        	<div id="design-more" class="modal clearfix">
+	        		<div class="container">
+	        			<h3>Design & Development</h3>
+	        			<div class="col-md-8 clearfix">
+	        			<!-- system information details -->
+	        				<div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="design-1">
+							    	<h4>Heading</h4>
+							    	<img src="img/2000px-WWW_logo_by_Robert_Cailliau.svg.png" class="img-responsive" alt="system">
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repellendus, porro hic at alias accusamus consectetur illo maxime eveniet officia quidem beatae placeat natus amet dolore ad. Qui, quam, modi.</p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="design-2">
+							    	<h4>Heading</h4>
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis alias, fugiat impedit sequi excepturi eum a, error illum eos saepe commodi earum, fuga? Provident ipsa tempora adipisci, vitae impedit.</p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="design-3">
+							    	<h4>Heading</h4>
+							    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, pariatur voluptate non possimus eos voluptatum exercitationem laboriosam dolores, veniam accusantium impedit ipsam iste quaerat placeat obcaecati rerum deserunt fuga, cupiditate!</span>
+							    	<span>Impedit enim dicta ratione quam esse sint expedita! Odio, ipsam animi sapiente placeat iusto labore fugiat maxime possimus! Debitis impedit neque laudantium ipsa, natus, nisi repellendus culpa nemo est eveniet?</span>
+							    	<span>Reiciendis iste, debitis placeat totam sint eos vero ducimus adipisci, expedita dolor. Ipsa, accusantium dolorem atque reprehenderit esse quia pariatur? Rem omnis voluptatem minus ullam placeat rerum beatae, nostrum, expedita.</span></p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="design-4">
+							    	<h4>Heading</h4>
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odio earum quasi porro magnam. Quam, dolorum minima est soluta cupiditate ex corporis ratione harum dignissimos tempore. Repellendus, repellat ullam quae!</p>
+							    </div>
+							</div>
+
+	        			</div>
+	        			<div class="col-md-4 clearfix">
+	        			<!-- system information menu -->
+	        			<h4>Heading</h4>
+	        				<ul class="nav nav-tabs" role="tablist">
+						    <li role="presentation" class="active"><a href="#design-1" aria-controls="design-1" role="tab" data-toggle="tab">lorem ipsum dolar...<br>10 jun 2016</a></li>
+						    <li role="presentation"><a href="#design-2" aria-controls="design-2" role="tab" data-toggle="tab">lorem ipsum dolar...<br>12 jun 2016</a></li>
+						    <li role="presentation"><a href="#design-3" aria-controls="design-3" role="tab" data-toggle="tab">lorem ipsum dolar...<br>14 jun 2016</a></li>
+						    <li role="presentation"><a href="#design-4" aria-controls="design-4" role="tab" data-toggle="tab">lorem ipsum dolar...<br>16 jun 2016</a></li>
+						  </ul>
+	        			</div>
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        		</div>
+	        	</div>
+	        	<!-- it training -->
+	        	<div class="training clearfix">
+	        		<div class="col-md-6 clearfix" style="padding-right: 0">
+	        			<h3 class="clearfix">IT Training</h3>
+	        			<div class="training-content clearfix">
+	        				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint suscipit provident quisquam eveniet repudiandae ducimus velit id reiciendis alias, consectetur corporis odit veniam voluptate dignissimos voluptatibus, veritatis cum quis aperiam!</p>
+	        			</div>
+	        		<button data-toggle="modal" data-target="#training-more"><i class="fa fa-angle-double-left fa-1x"></i><span>See More</span><i class="fa fa-angle-double-right fa-1x"></i></button>
+
+	        		</div>
+	        		<div class="col-md-6 clearfix">
+	        			<div class="training-img">
+	        				<img src="img/pen drive.jpg" class="img-responsive wow fadeInUp" data-wow-offset="200" alt="training">
+	        			</div>
+	        		</div>
+	        	</div>
+	        	<!-- IT training more -->
+	        	<div id="training-more" class="modal clearfix">
+	        		<div class="container">
+	        			<h3>IT Training</h3>
+	        			<div class="col-md-8">
+	        			<!-- system information details -->
+	        				<div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="training-1">
+							    	<h4>Heading</h4>
+							    	<img src="img/2000px-WWW_logo_by_Robert_Cailliau.svg.png" class="img-responsive" alt="system">
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repellendus, porro hic at alias accusamus consectetur illo maxime eveniet officia quidem beatae placeat natus amet dolore ad. Qui, quam, modi.</p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="training-2">
+							    	<h4>Heading</h4>
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis alias, fugiat impedit sequi excepturi eum a, error illum eos saepe commodi earum, fuga? Provident ipsa tempora adipisci, vitae impedit.</p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="training-3">
+							    	<h4>Heading</h4>
+							    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, pariatur voluptate non possimus eos voluptatum exercitationem laboriosam dolores, veniam accusantium impedit ipsam iste quaerat placeat obcaecati rerum deserunt fuga, cupiditate!</span>
+							    	<span>Impedit enim dicta ratione quam esse sint expedita! Odio, ipsam animi sapiente placeat iusto labore fugiat maxime possimus! Debitis impedit neque laudantium ipsa, natus, nisi repellendus culpa nemo est eveniet?</span>
+							    	<span>Reiciendis iste, debitis placeat totam sint eos vero ducimus adipisci, expedita dolor. Ipsa, accusantium dolorem atque reprehenderit esse quia pariatur? Rem omnis voluptatem minus ullam placeat rerum beatae, nostrum, expedita.</span></p>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="training-4">
+							    	<h4>Heading</h4>
+							    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odio earum quasi porro magnam. Quam, dolorum minima est soluta cupiditate ex corporis ratione harum dignissimos tempore. Repellendus, repellat ullam quae!</p>
+							    </div>
+							</div>
+
+	        			</div>
+	        			<div class="col-md-4 clearfix">
+	        			<!-- system information menu -->
+	        			<h4>Heading</h4>
+	        				<ul class="nav nav-tabs" role="tablist">
+						    <li role="presentation" class="active"><a href="#training-1" aria-controls="training-1" role="tab" data-toggle="tab">lorem ipsum dolar...<br>10 jun 2016</a></li>
+						    <li role="presentation"><a href="#training-2" aria-controls="training-2" role="tab" data-toggle="tab">lorem ipsum dolar...<br>12 jun 2016</a></li>
+						    <li role="presentation"><a href="#training-3" aria-controls="training-3" role="tab" data-toggle="tab">lorem ipsum dolar...<br>14 jun 2016</a></li>
+						    <li role="presentation"><a href="#training-4" aria-controls="training-4" role="tab" data-toggle="tab">lorem ipsum dolar...<br>16 jun 2016</a></li>
+						  </ul>
+	        			</div>
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        		</div>
+	        	</div>
+	        	<!-- IT Training End -->
+        	</div>
+        </div>
+    </div>
+    <!-- about section start -->
+    <div id="about" class="clearfix">
+    	<div class="about">
+	        <div class="container">
+		        <div class="row">
+			        <div class="about-content wow fadeInUp" data-wow-offset="200">
+				        <h2>about us</h2>
+				        <div class="col-md-6">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				            proident, sunt in culpa qui officia.</p>
+				            <button data-toggle="modal" class="button gray" data-target="#about-more">read more</button>
+				        </div>    
+				         <div class="col-md-6"></div>   
+					</div>
+		        </div>
+	        </div>
+    	</div>
+    	<!-- about more information  -->
+		<div id="about-more" class="modal">
+			<div class="container">
+			<div class="modal-header">
+				 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <h3 class="modal-title" id="myModalLabel">Company Profile</h3>
+				  <div class="print">
+				  	<a href="#about-more" download><i class="fa fa-download fa-2x"></i></a>
+				  <a onclick="pdfPrint()"><i class="fa fa-print fa-2x"></i></a href="#">
+				  </div> 
+				  <script>
+					function pdfPrint() {
+					    window.print();
+					}
+				  </script>
+			</div>
+			<div class="modal-body">
+				<div class="roots">
+					<img src="img/computer-564099_1920.jpg" class="img-responsive" alt="office">
+					<h4>Our Roots</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt numquam vel quae recusandae dolores doloremque nisi, nihil? Vitae asperiores ea sequi debitis quasi suscipit, repudiandae neque eos. Iste, id.</p>
+				</div>
+				<div class="work">
+					<h4>Our Works</h4>
+					<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, vitae. Blanditiis, illo? Consectetur obcaecati corporis sed sunt adipisci. Voluptas culpa facere corporis aliquam fugit quasi expedita veritatis beatae fuga accusantium.</span><span>Quam magni soluta quibusdam tenetur iure, neque quisquam adipisci nam placeat, iste porro suscipit omnis aut veritatis saepe esse delectus nostrum provident rem a quidem ullam temporibus. Praesentium, eius, numquam.</span></p>
+				</div>
+				<div class="environment">
+					<h4>Environment & Safety</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis reiciendis totam magnam itaque, amet, voluptatibus deleniti animi nesciunt quisquam iste tempora sed doloremque quaerat et neque quas possimus sequi laudantium.</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		</div>
+    </div>
+	<!-- Team start -->
+	<div id="team" class="clearfix">
+		<div class="container">
+			<h2>Meet The Team</h2>
+			<div class="team">
+				 <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+			    <li role="presentation"><a href="#networking" aria-controls="networking" role="tab" data-toggle="tab">Networking</a></li>
+			    <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Design & Development</a></li>
+			    <li role="presentation"><a href="#linux" aria-controls="linux" role="tab" data-toggle="tab">Linux</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			  <!-- All Team members -->
+			    <div role="tabpanel" class="tab-pane fade in active" id="all">
+			    	<div id="all-team" class="carouseller wow fadeInUp" data-wow-offset="200">
+			    		<a href="javascript:void(0)" class="carousel-button-left">‹</a>
+						<div class="carousel-wrapper">
+							<div class="carousel-items">
+							<!-- First team member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Raisul (386).jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+							
+									<div class="team-img">
+										<img src="img/Layer 1@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<!-- second team member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Raisul (386).jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Layer 1@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<!-- Third team member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Raisul (386).jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 015-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<!-- Four team member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Raisul (386).jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 015-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<!-- five team member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Raisul (386).jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<!-- sixth team member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 015-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="javascript:void(0)" class="carousel-button-right">›</a>
+					</div>
+			    </div>
+			    <!-- Network team -->
+			    <div role="tabpanel" class="tab-pane fade" id="networking">
+			    	<div id="network-team" class="carouseller">
+			    		<a href="javascript:void(0)" class="carousel-button-left">‹</a>
+						<div class="carousel-wrapper">
+							<div class="carousel-items">
+							<!-- first member -->
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="javascript:void(0)" class="carousel-button-right">›</a>
+					</div>
+			    </div>
+			    <!-- Web Design And Development -->
+			    <div role="tabpanel" class="tab-pane fade" id="web">
+			    	<div id="web-team" class="carouseller">
+			    		<a href="javascript:void(0)" class="carousel-button-left">‹</a>
+						<div class="carousel-wrapper">
+							<div class="carousel-items">
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="javascript:void(0)" class="carousel-button-right">›</a>
+					</div>
+			    </div>
+			    <!-- Linux Team -->
+			    <div role="tabpanel" class="tab-pane fade" id="linux">
+			    	<div id="linux-team" class="carouseller">
+			    		<a href="javascript:void(0)" class="carousel-button-left">‹</a>
+						<div class="carousel-wrapper">
+							<div class="carousel-items">
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Layer 1@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Layer 2@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Layer 3@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Layer 4@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+									
+								</div>
+								<div class="span4 carousel-block">
+									
+									<div class="team-img">
+										<img src="img/Layer 5@2x.png" class="img-responsive" alt="">
+									</div>
+									<div class="team-info">
+										<p class="team-name">MD. Royal</p>
+										<p class="position">Senior Web Developer</p>
+										<p class="team-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea autem quas voluptatibus, optio eaque, fugiat magni mollitia labore corrupti accusantium voluptates</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="javascript:void(0)" class="carousel-button-right">›</a>
+					</div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<!-- galary for video and photos -->
+	<div id="galary" class="clearfix">
+		<h2>Gallary</h2>
+		<!-- photo albums -->
+		<div id="photos" class="clearfix">
+			<div class="col-md-8">
+			<div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="photos-2016">
+			    	<h3>Photos of 2016</h3>
+			    	<div id="slider-2016" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/Goal.jpg" class="img-responsive" alt="encase">
+							
+						</div>
+						<div class="item">
+							<img src="img/Power.jpg" class="img-responsive" alt="enrich">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-2016" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<div class="counter"></div>
+					</a>
+					<a class="right carousel-control" href="#slider-2016" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<div class="total"></div>
+					</a>
+					
+				</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="photos-2015">
+			    	<h3>Photos of 2015</h3>
+			    	<div id="slider-2015" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/Goal.jpg" class="img-responsive" alt="encase">
+							
+						</div>
+						<div class="item">
+							<img src="img/Power.jpg" class="img-responsive" alt="enrich">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-2015" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-2015" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="photos-2014">
+			    	<h3>Photos of 2014</h3>
+			    	<div id="slider-2014" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/Goal.jpg" class="img-responsive" alt="encase">
+							
+						</div>
+						<div class="item">
+							<img src="img/Power.jpg" class="img-responsive" alt="enrich">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-2014" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-2014" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="photos-2013">
+			    	<h3>Photos of 2013</h3>
+			    	<div id="slider-2013" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/Goal.jpg" class="img-responsive" alt="encase">
+							
+						</div>
+						<div class="item">
+							<img src="img/Power.jpg" class="img-responsive" alt="enrich">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-2013" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-2013" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="photos-2012">
+			    	<h3>Photos of 2012</h3>
+			    	<div id="slider-2012" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/Goal.jpg" class="img-responsive" alt="encase">
+							
+						</div>
+						<div class="item">
+							<img src="img/Power.jpg" class="img-responsive" alt="enrich">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-2012" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-2012" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="photos-2011">
+			    	<h3>Photos of 2011</h3>
+			    	<div id="slider-2011" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/Goal.jpg" class="img-responsive" alt="encase">
+							
+						</div>
+						<div class="item">
+							<img src="img/Power.jpg" class="img-responsive" alt="enrich">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+						<div class="item">
+							<img src="img/Touch.jpg" class="img-responsive" alt="endeavor">
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-2011" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-2011" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+			    </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<h3>Photo Albums</h3>
+			<ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#photos-2016" aria-controls="photos-2016" role="tab" data-toggle="tab"><span></span> <p>photos (2016)</p></a></li>
+
+			    <li role="presentation"><a href="#photos-2015" aria-controls="photos-2015" role="tab" data-toggle="tab"><p>photos (2015)</p></a></li>
+
+			    <li role="presentation"><a href="#photos-2014" aria-controls="photos-2014" role="tab" data-toggle="tab"><p>photos (2014)</p></a></li>
+
+			    <li role="presentation"><a href="#photos-2013" aria-controls="photos-2013" role="tab" data-toggle="tab"><p>photos (2013)</p></a></li>
+
+			    <li role="presentation"><a href="#photos-2012" aria-controls="photos-2012" role="tab" data-toggle="tab"><p>photos (2012)</p></a></li>
+
+			    <li role="presentation"><a href="#photos-2011" aria-controls="photos-2011" role="tab" data-toggle="tab"><p>photos (2011)</p></a></li>
+			</ul>
+		</div>
+		</div>
+		<!-- video albums -->
+		<div id="videos" class="clearfix">
+			<div class="col-md-4">
+				<h3>Video Albums</h3>
+				<ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#videos-2016" aria-controls="videos-2016" role="tab" data-toggle="tab"><p>Videos (2016)</p></a></li>
+				    <li role="presentation"><a href="#videos-2015" aria-controls="videos-2015" role="tab" data-toggle="tab"><p>Videos (2015)</p></a></li>
+				    <li role="presentation"><a href="#videos-2014" aria-controls="videos-2014" role="tab" data-toggle="tab"><p>Videos (2014)</p></a></li>
+				    <li role="presentation"><a href="#videos-2013" aria-controls="videos-2013" role="tab" data-toggle="tab"><p>Videos (2013)</p></a></li>
+				    <li role="presentation"><a href="#videos-2012" aria-controls="videos-2012" role="tab" data-toggle="tab"><p>Videos (2012)</p></a></li>
+				    <li role="presentation"><a href="#videos-2011" aria-controls="videos-2011" role="tab" data-toggle="tab"><p>Videos (2011)</p></a></li>
+				</ul>
+			</div>
+			<div class="col-md-8">
+				<div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="videos-2016">
+				    <h3>Videos of 2016</h3>
+			    	<div id="slider-v-2016" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+  									<source src="video/HTML5 Video.ogg" type="video/ogg">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+  									<source src="video/HTML5 Video.mp4" type="video/mp4">
+  									<source src="video/HTML5 Video.ogg" type="video/ogg">
+  
+							</video>
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-v-2016" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-v-2016" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="videos-2015">
+				    	<h3>Videos of 2015</h3>
+			    	<div id="slider-v-2015" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<video controls>
+							  <source src="video/04_mpeg4.mp4" type="video/mp4">
+							  
+							</video>
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/monpazer2011.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/monpazer2011.mp4" type="video/mp4;codecs='vp8, vorbis'">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/monpazer2011.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/04_mpeg4.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-v-2015" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-v-2015" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="videos-2014">
+				    	<h3>Videos of 2014</h3>
+			    	<div id="slider-v-2014" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-v-2014" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-v-2014" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="videos-2013">
+				    	<h3>Videos of 2013</h3>
+			    	<div id="slider-v-2013" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-v-2013" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-v-2013" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="videos-2012">
+				    	<h3>Videos of 2012</h3>
+			    	<div id="slider-v-2012" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-v-2012" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-v-2012" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="videos-2011">
+				    	<h3>Videos of 2011</h3>
+			    	<div id="slider-v-2011" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="false">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+						<div class="item">
+							<video controls>
+							  <source src="video/HTML5 Video.mp4" type="video/mp4">
+							  
+							</video>
+							
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider-v-2011" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						
+					</a>
+					<a class="right carousel-control" href="#slider-v-2011" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						
+					</a>
+				</div>
+				    </div>
+			  </div>
+			</div>
+
+		</div>
+		
+	</div>
+	<!-- Testimony start -->
+	<div id="testimony" class="clearfix">
+		<div class="container">
+			<h2>Testimonials</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla debitis tenetur, nesciunt. Labore</p>
+			<div id="test-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="hover">
+			<ol class="carousel-indicators">
+			    <li data-target="#test-slider" data-slide-to="0" class="active"></li>
+			    <li data-target="#test-slider" data-slide-to="1"></li>
+			    <li data-target="#test-slider" data-slide-to="2"></li>
+			    <li data-target="#test-slider" data-slide-to="3"></li>
+			    <li data-target="#test-slider" data-slide-to="4"></li>
+			 </ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="test-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptas maxime nemo atque cupiditate pariatur quasi delectus cumque officia quia? Necessitatibus a, labore commodi voluptatibus at voluptatem ducimus quisquam nemo.
+						</div>
+						<ul class="list-unstyled">
+							<li>
+								<div class="img">
+									<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="enrich">
+								</div>
+							</li>
+							<li>
+								<div class="test-id">
+									<p>Mr. Devid Warner</p>
+									<p>CEO of World IT</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="item">
+						<div class="test-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptas maxime nemo atque cupiditate pariatur quasi delectus cumque officia quia? Necessitatibus a, labore commodi voluptatibus at voluptatem ducimus quisquam nemo.
+						</div>
+						<ul class="list-unstyled">
+							<li>
+								<div class="img">
+									<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="enrich">
+								</div>
+							</li>
+							<li>
+								<div class="test-id">
+									<p>Mr. Devid Warner</p>
+									<p>CEO of World IT</p>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="item">
+						<div class="test-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptas maxime nemo atque cupiditate pariatur quasi delectus cumque officia quia? Necessitatibus a, labore commodi voluptatibus at voluptatem ducimus quisquam nemo.
+						</div>
+						<ul class="list-unstyled">
+							<li>
+								<div class="img">
+									<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="enrich">
+								</div>
+							</li>
+							<li>
+								<div class="test-id">
+									<p>Mr. Devid Warner</p>
+									<p>CEO of World IT</p>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="item">
+						<div class="test-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptas maxime nemo atque cupiditate pariatur quasi delectus cumque officia quia? Necessitatibus a, labore commodi voluptatibus at voluptatem ducimus quisquam nemo.
+						</div>
+						<ul class="list-unstyled">
+							<li>
+								<div class="img">
+									<img src="img/Picture 016-Pp.jpg" class="img-responsive" alt="enrich">
+								</div>
+							</li>
+							<li>
+								<div class="test-id">
+									<p>Mr. Devid Warner</p>
+									<p>CEO of World IT</p>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="item">
+						<div class="test-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptas maxime nemo atque cupiditate pariatur quasi delectus cumque officia quia? Necessitatibus a, labore commodi voluptatibus at voluptatem ducimus quisquam nemo.
+						</div>
+						<ul class="list-unstyled">
+							<li>
+								<div class="img">
+									<img src="img/Picture 014-Pp.jpg" class="img-responsive" alt="enrich">
+								</div>
+							</li>
+							<li>
+								<div class="test-id">
+									<p>Mr. Devid Warner</p>
+									<p>CEO of World IT</p>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- career start -->
+	<div id="career" class="clearfix">
+		<div class="container">
+			<h2 class="wow fadeInUp" data-wow-offset="200">career</h2>
+			<div class="career-content wow fadeInUp" data-wow-offset="200">
+				<h3>Work With US</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam labore et non adipisci quas laudantium dolor explicabo ducimus deserunt deleniti, quaerat consectetur molestiae illo nostrum earum aliquam, autem similique mollitia Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptate cum, dolores adipisci praesentium ea iste minus magni incidunt unde autem at tempore dolore a consequatur consequuntur cumque facere, animi.</p>
+			</div>
+		</div>
+	</div>
+	<!-- cv integration -->
+	<div id="career-cv" class="clearfix">
+		<div class="container">
+			<div class="col-md-7">
+				<h3>Send Your CV</h3>
+				<ul class="list-unstyled">
+					<li>
+						<p>You can send your cv in pdf file</p>
+					</li>
+					<li>
+					
+						<input type="file" name="file" id="file" class="inputfile" />
+					
+					</li>
+					<li>
+					<form action="action.php">
+						<input type="submit">
+					</form>
+					</li>
+				</ul>
+				<div class="current-openings">
+					<h3>Current Openings</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sit, culpa mollitia nobis quia temporibus quae illo laborum officiis officia. Dolores necessitatibus maiores non at nostrum, totam molestias placeat qui!</p>
+					<input type="button" value="See More" data-target="#current" data-toggle="modal">
+				</div>
+			</div>
+			<div class="col-md-5 wow fadeInUp" data-wow-offset="200">
+				<div class="cv-bg">
+					
+				</div>
+			</div>
+		</div>
+		<!-- Current oppening more -->
+		<div id="current" class="modal">
+			<div class="container">
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+				<h2>Current oppenings</h2>
+				<div class="current">
+					<div class="col-md-8">
+						<div class="tab-content">
+						    <div role="tabpanel" class="tab-pane fade in active" id="current-1">
+						    	<h4>Heading 1</h4>
+						    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga est voluptatibus explicabo, soluta veniam, qui beatae odit dolorem distinctio iste voluptatem atque possimus, quisquam cum dolorum? Libero eum optio ipsa?</span>
+						    	<span>Aut, optio unde in ratione itaque! Quam sed saepe autem corporis est, quos delectus eum repellendus odit aspernatur. Ullam corporis magnam, ea beatae. Iste perspiciatis saepe labore ipsam commodi ex?</span>
+						    	<span>Voluptas minus accusantium laborum corporis magnam iusto labore, dolore voluptatem ratione aliquid deserunt voluptate quasi odio, unde aspernatur quisquam quis. Explicabo fugiat, magnam est quisquam doloremque labore dolores, tempore cum!</span>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate culpa voluptates officia laborum. Hic facere omcorporis magnam iusto labore, dolore voluptatem ratione aliquid deserunt voluptate quasi odio, unde aspernatur quisquam quis. Explicabo fugiat, magnam est quisquam doloremque labore dolores, tempore cum!</span>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate culpa voluptates officia laborum. Hic facere omnis molestiae, eos animi nihil. Ad minima magni a, doloribus sit explicabo quo quibusdam officiis!
+						    	</p>
+						    </div>
+						    <div role="tabpanel" class="fade tab-pane" id="current-2">
+						    <h4>Heading 2</h4>
+						    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga est voluptatibus explicabo, soluta veniam, qui beatae odit dolorem distinctio iste voluptatem atque possimus, quisquam cum dolorum? Libero eum optio ipsa?</span>
+						    	<span>Aut, optio unde in ratione itaque! Quam sed saepe autem corporis est, quos delectus eum repellendus odit aspernatur. Ullam corporis magnam, ea beatae. Iste perspiciatis saepe labore ipsam commodi ex?</p>
+
+						    </div>
+						    <div role="tabpanel" class="fade tab-pane" id="current-3">
+						    <h4>Heading 3</h4>
+						    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga est voluptatibus explicabo, soluta veniam, qui beatae odit dolorem distinctio iste voluptatem atque possimus, quisquam cum dolorum? Libero eum optio ipsa?</span>
+						    	<span>Aut, optio unde in ratione itaque! Quam sed saepe autem corporis est, quos delectus eum repellendus odit aspernatur. Ullam corporis magnam, ea beatae. Iste perspiciatis saepe labore ipsam commodi ex?</span>
+						    	<span>Voluptas minus accusantium laborum corporis magnam iusto labore, dolore voluptatem ratione aliquid deserunt voluptate quasi odio, unde aspernatur quisquam quis. Explicabo fugiat, magnam est quisquam doloremque labore dolores, tempore cum!</span></p>
+
+						    </div>
+						    <div role="tabpanel" class="fade tab-pane" id="current-4">
+						    <h4>Heading 4</h4>
+						    	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga est voluptatibus explicabo, soluta veniam, qui beatae odit dolorem distinctio iste voluptatem atque possimus, quisquam cum dolorum? Libero eum optio ipsa?</span>
+						    	<span>Aut, optio unde in ratione itaque! Quam sed saepe autem corporis est, quos delectus eum repellendus odit aspernatur. Ullam corporis magnam, ea beatae. Iste perspiciatis saepe labore ipsam commodi ex?</span>
+						    	<span>Voluptas minus accusantium laborum corporis magnam iusto labore, dolore voluptatem ratione aliquid deserunt voluptate quasi odio, unde aspernatur quisquam quis. Explicabo fugiat, magnam est quisquam doloremque labore dolores, tempore cum!</span></p>
+
+						    </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<ul class="nav nav-tabs" role="tablist">
+						    <li role="presentation" class="active"><a href="#current-1" aria-controls="current-1" role="tab" data-toggle="tab">
+						    	lorem ipsum dolar sit amet<br>
+						    	20 March 2016
+						    </a></li>
+
+						    <li role="presentation"><a href="#current-2" aria-controls="current-2" role="tab" data-toggle="tab">
+								lorem ipsum dolar sit amet<br>
+						    	24 Jun 2016
+						    </a></li>
+
+						    <li role="presentation"><a href="#current-3" aria-controls="current-3" role="tab" data-toggle="tab">
+								lorem ipsum dolar sit amet<br>
+						    	22 Jun 2016
+						    </a></li>
+
+						    <li role="presentation"><a href="#current-4" aria-controls="current-4" role="tab" data-toggle="tab">
+						    	lorem ipsum dolar sit amet<br>
+						    	22 Jun 2016
+						    </a></li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- current oppenings end -->
+	</div>
+	<!-- Social Services -->
+
+	<div id="social-services" class="clearfix">
+		<div class="container-fluid">
+			<h2>SOCIAL SERVICES</h2>
+			<div>
+			<!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="social-1">
+			    	<div class="col-md-6">
+			    	<!-- more social-1 work for various year -->
+			    		<div class="tab-content">
+			    			<div class="tab-pane" role="tabpanel" id="social-1-2015">
+			    			<!-- all social-1 2015 images -->
+			    			<div id="all-social-1-2015" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/social-work5.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work5.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work5.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work5.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-1-2015" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-1-2015" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    				
+			    			</div>
+			    			<!-- all social-1 2016 images -->
+			    			<div class="tab-pane active" role="tabpanel" id="social-1-2016">
+			    				<div id="all-social-1-2016" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/winter-help2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/winter-help3.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/winter-help4.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/winter-help1.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-1-2016" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-1-2016" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    				
+			    			</div>
+			    			<!-- all social-1 2017 images -->
+			    			<div class="tab-pane" role="tabpanel" id="social-1-2017">
+			    				<div id="all-social-1-2017" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-1-2017" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-1-2017" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    				
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<div class="col-md-6">
+			    		<h3>Winter Help</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque, placeat. Laborum, explicabo excepturi! Perferendis nulla architecto totam veritatis eligendi, dolorum nostrum, iusto vitae voluptates cum nam, ex dolorem, libero.</p>
+			    	
+			    		<ul class="nav nav-tabs sub-tab" role="tablist">
+
+			    		<li>-</li>
+
+					    <li role="presentation"><a href="#social-1-2015" aria-controls="social-1-2015" role="tab" data-toggle="tab">2015</a></li>
+
+					    <li role="presentation" class="active"><a href="#social-1-2016" aria-controls="social-1-2016" role="tab" data-toggle="tab">2016</a></li>
+
+					    <li role="presentation"><a href="#social-1-2017" aria-controls="social-1-2017" role="tab" data-toggle="tab">2017</a></li>
+
+					    <li>+</li>
+
+					  </ul>
+					  
+			    	</div>
+			    </div>
+			    <!-- more social-2 work for various year -->
+			    <div role="tabpanel" class="tab-pane" id="social-2">
+					<div class="col-md-6">
+						<div class="tab-content">
+			    		<!-- all social-2 2015 images -->
+			    			<div class="tab-pane" role="tabpanel" id="social-2-2015">
+			    				<div id="all-social-2-2015" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/social-work2 (2).jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work2 (2).jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work2 (2).jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work2 (2).jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-2-2015" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-2-2015" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<!-- all social-2 2016 images -->
+			    			<div class="tab-pane active" role="tabpanel" id="social-2-2016">
+			    				<div id="all-social-2-2016" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/images.jpg" alt="tree-plantation">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/plant-trees.jpg" alt="tree-plantation">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/Tree-planting-at-Bishan-Ang-Mo-Kio-Park.jpg" alt="tree-plantation">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/tree1.jpg" alt="tree-plantation">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-2-2016" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-2-2016" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<!-- all social-2 2017 images -->
+			    			<div class="tab-pane" role="tabpanel" id="social-2-2017">
+			    				<div id="all-social-2-2017" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img_chania.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_chania2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-2-2017" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-2-2017" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    		</div>
+					</div>
+			    	<div class="col-md-6">
+			    		<h3>Tree Plantation </h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita unde molestiae, laboriosam suscipit animi sint nesciunt numquam aspernatur facere a ea accusamus, fugit optio, architecto natus omnis inventore sapiente. Asperiores.</p>
+			    		<ul class="nav nav-tabs sub-tab" role="tablist">
+
+			    		<li>-</li>
+
+					    <li role="presentation"><a href="#social-2-2015" aria-controls="social-2-2015" role="tab" data-toggle="tab">2015</a></li>
+
+					    <li role="presentation" class="active"><a href="#social-2-2016" aria-controls="social-2-2016" role="tab" data-toggle="tab">2016</a></li>
+
+					    <li role="presentation"><a href="#social-2-2017" aria-controls="social-2-2017" role="tab" data-toggle="tab">2017</a></li>
+
+					    <li>+</li>
+
+					  </ul>
+			    	</div>
+			    </div>
+			    <!-- more social-3 work for various year -->
+			    <div role="tabpanel" class="tab-pane" id="social-3">
+					<div class="col-md-6">
+						<div class="tab-content">
+
+			    			<div class="tab-pane" role="tabpanel" id="social-3-2015">
+			    				<div id="all-social-3-2015" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/a.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/a.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/a.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/a.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-3-2015" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-3-2015" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<div class="tab-pane active" role="tabpanel" id="social-3-2016">
+			    				<div id="all-social-3-2016" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/blodddonation.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/blooddonation2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/social-work2 (2).jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/blooddonation2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-3-2016" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-3-2016" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<div class="tab-pane" role="tabpanel" id="social-3-2017">
+			    				<div id="all-social-3-2017" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img_chania.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_chania2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-3-2017" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-3-2017" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    		</div>
+					</div>
+			    	<div class="col-md-6">
+			    		<h3> Blood Donation</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur minus fuga. Eum repellat minima id quia impedit odit voluptatem deserunt tempora. Enim quidem minima voluptatem vitae adipisci beatae quam.</p>
+			    		<ul class="nav nav-tabs sub-tab" role="tablist">
+
+			    		<li>-</li>
+
+					    <li role="presentation"><a href="#social-3-2015" aria-controls="social-3-2015" role="tab" data-toggle="tab">2015</a></li>
+
+					    <li role="presentation" class="active"><a href="#social-3-2016" aria-controls="social-3-2016" role="tab" data-toggle="tab">2016</a></li>
+
+					    <li role="presentation"><a href="#social-3-2017" aria-controls="social-3-2017" role="tab" data-toggle="tab">2017</a></li>
+
+					    <li>+</li>
+
+					  </ul>
+			    	</div>
+			    </div>
+			    <!-- more social-4 work for various year -->
+			    <div role="tabpanel" class="tab-pane" id="social-4">
+					<div class="col-md-6">
+						<div class="tab-content">
+			    		
+			    			<div class="tab-pane" role="tabpanel" id="social-4-2015">
+			    				<div id="all-social-4-2015" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img_chania.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_chania2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-4-2015" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-4-2015" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<div class="tab-pane active" role="tabpanel" id="social-4-2016">
+			    				<div id="all-social-4-2016" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/Clean-Up-the-World-2012-theme-logo.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/cleaning1.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/cleaning2.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/Clean-Up-the-World-2012-theme-logo.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-4-2016" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-4-2016" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<div class="tab-pane" role="tabpanel" id="social-4-2017">
+			    				<div id="all-social-4-2017" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img_chania.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_chania2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-4-2017" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-4-2017" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    		</div>
+					</div>
+			    	<div class="col-md-6">
+			    		<h3>Cleanliness Campaign</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus sint earum, ad alias, eum neque molestias. Debitis accusamus doloremque sed totam, voluptatibus necessitatibus? Animi maiores eaque, quibusdam consequatur neque aliquid.</p>
+			    		<ul class="nav nav-tabs sub-tab" role="tablist">
+
+			    		<li>-</li>
+
+					    <li role="presentation"><a href="#social-4-2015" aria-controls="social-4-2015" role="tab" data-toggle="tab">2015</a></li>
+
+					    <li role="presentation" class="active"><a href="#social-4-2016" aria-controls="social-4-2016" role="tab" data-toggle="tab">2016</a></li>
+
+					    <li role="presentation"><a href="#social-4-2017" aria-controls="social-4-2017" role="tab" data-toggle="tab">2017</a></li>
+
+					    <li>+</li>
+
+					  </ul>
+			    	</div>
+			    </div>
+			    <!-- more social-5 work for various year -->
+			    <div role="tabpanel" class="tab-pane" id="social-5">
+					<div class="col-md-6">
+						<div class="tab-content">
+			    			
+			    			<div class="tab-pane" role="tabpanel" id="social-5-2015">
+			    				<div id="all-social-5-2015" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img_chania.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_chania2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-5-2015" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-5-2015" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<div class="tab-pane active" role="tabpanel" id="social-5-2016">
+			    				<div id="all-social-5-2016" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img/a.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img/Children in a Slum School Classroom copy.JPG" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-5-2016" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-5-2016" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    			<div class="tab-pane" role="tabpanel" id="social-5-2017">
+			    				<div id="all-social-5-2017" class="carousel slide" data-ride="carousel">
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="img_chania.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_chania2.jpg" alt="Chania">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower.jpg" alt="Flower">
+							    </div>
+
+							    <div class="item">
+							      <img src="img_flower2.jpg" alt="Flower">
+							    </div>
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#all-social-5-2017" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    
+							  </a>
+							  <a class="right carousel-control" href="#all-social-5-2017" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    
+							  </a>
+							</div>
+			    			</div>
+			    		</div>
+					</div>
+			    	<div class="col-md-6">
+			    		<h3>Other Help</h3>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cum consequuntur fugit voluptate nulla odit explicabo, sed nostrum at, provident iusto quo ipsum sit! Ex, porro! Eaque quam aperiam id.</p>
+			    		<ul class="nav nav-tabs sub-tab" role="tablist">
+
+			    		<li>-</li>
+
+					    <li role="presentation"><a href="#social-5-2015" aria-controls="social-5-2015" role="tab" data-toggle="tab">2015</a></li>
+
+					    <li role="presentation" class="active"><a href="#social-5-2016" aria-controls="social-5-2016" role="tab" data-toggle="tab">2016</a></li>
+
+					    <li role="presentation"><a href="#social-5-2017" aria-controls="social-5-2017" role="tab" data-toggle="tab">2017</a></li>
+
+					    <li>+</li>
+
+					  </ul>
+			    	</div>
+			    </div>
+			  </div>
+
+			  <!-- Nav tabs -->
+			  <div class="main-menu wow fadeIn" data-wow-offset="200">
+			  	<div class="col-md-6"></div>
+			  	<div class="col-md-6">
+			  		<ul class="nav nav-tabs main-tab" role="tablist">
+			  		<h3>All Activities</h3>
+			    <li role="presentation" class="active"><a href="#social-1" aria-controls="social-1" role="tab" data-toggle="tab">
+			    <img src="img/winter-help2.jpg" class="img-responsive" alt="">
+				<p>Winter Help</p>
+			    </a></li>
+
+			    <li role="presentation"><a href="#social-2" aria-controls="social-2" role="tab" data-toggle="tab">
+			    <img src="img/Tree-planting-at-Bishan-Ang-Mo-Kio-Park.jpg" class="img-responsive" alt="">
+			    <p>Tree Plantation</p>
+			    </a></li>
+
+			    <li role="presentation"><a href="#social-3" aria-controls="social-3" role="tab" data-toggle="tab">
+			    <img src="img/social-work2 (2).jpg" class="img-responsive" alt="">
+				<p>Blood Donation</p>
+			    </a></li>
+
+			    <li role="presentation"><a href="#social-4" aria-controls="social-4" role="tab" data-toggle="tab">
+			    <img src="img/cleaning2.jpg" class="img-responsive" alt="">
+				<p>Cleanliness Campaign</p>
+			    </a></li>
+
+			    <li role="presentation"><a href="#social-5" aria-controls="social-5" role="tab" data-toggle="tab">
+			    <img src="img/Children in a Slum School Classroom copy.JPG" class="img-responsive" alt="">
+				<p>Others Help</p>
+			    </a></li>
+			  </ul>
+			  	</div>
+			  </div>
+
+			  
+
+			</div>
+		</div>
+	</div>
+	<!-- contact start -->
+	<div id="contact" class="clearfix">
+		<div id="map">
+		 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.45532531345!2d88.59917431499314!3d24.36545898428991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb1cf0034f8d5f95!2sOasis+IT+Ltd!5e0!3m2!1sen!2s!4v1444369544233" width="100%" height="444" frameborder="" style="" allowfullscreen=""></iframe>
+			
+		</div>
+		<div id="adress">
+			<div class="container">
+				<div class="col-md-6 col-sm-6">
+				<ul class="list-unstyled">
+					<li class="heading">
+						<p>Adress:</p>
+						<ul class="list-unstyled">
+							<li>Gulbagh, H-581, Kazla</li>
+							<li>Rajshahi-6900, Bangladesh</li>
+						</ul>
+					</li>
+					<li class="heading">
+						<p>Phone:</p>
+						<ul class="list-unstyled">
+							<li>Phone: +88 01723864330</li>
+							<li>Cell: +88 01723864330</li>
+						</ul>
+					</li>
+					<li class="heading">
+						<p>Email:</p>
+						<ul class="list-unstyled">
+							<li>Email: info@oasis.com.bd</li>
+				
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-sm-6 clearfix">
+				<div class="form wow fadeInUp" data-wow-offset="200">
+					<p>Contact with us:</p>
+					<form action="action.php" class="contact-form">
+							
+						<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+						<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						<textarea value="Text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Text';}">Text</textarea>
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- footer start -->
+	<div id="footer" class="clearfix">
+		<div class="container">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="feature">
+					<h3>Our Features</h3>
+					<ul class="list-unstyled">
+						<li><a href="">IT Training</a></li>
+						<li><a href="">Web Designing & Development</a></li>
+						<li><a href="">IT Solution</a></li>
+						<li><a href="">Intern Opportunity</a></li>
+						<li><a href="">Career Counselling</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="highlight">
+					<h3>Highlights</h3>
+					<ul class="list-unstyled">
+						<li>lorem ipsum dolar sit amet<br>26 Jun 2016</li>
+						<li>lorem ipsum dolar sit amet<br>26 Jun 2016</li>
+						<li>lorem ipsum dolar sit amet<br>26 Jun 2016</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12 col-sm-12">
+				<div class="latest">
+					<h3>Latest Work</h3>
+					<ul class="list-unstyled">
+						<li><a href=""><img src="img/laptop-at-night-1114387_1920.jpg" class="img-responsive" alt=""></a></li>
+
+						<li><a href=""><img src="img/dig2.jpg" class="img-responsive" alt=""></a></li>
+
+						<li><a href=""><img src="img/home-office-336377_1920.jpg" class="img-responsive" alt=""></a></li>
+
+						<li><a href=""><img src="img/services.jpg" class="img-responsive" alt=""></a></li>
+
+						<li><a href=""><img src="img/technology-wallpapers-hd-6-free-wallpaper.jpg" class="img-responsive" alt=""></a></li>
+
+						<li><a href=""><img src="img/web dsgn.jpg" class="img-responsive" alt=""></a></li>
+					</ul>
+					<input type="button" value="Trainee Info">
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-6">
+				<div class="social">
+				<h3>Our Social Link</h3>
+					<ul class="list-unstyled">
+						<li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<footer>Copy Right &copy;2016 Oasis IT | All Rights Reserved</footer>
+	</div>
+
+	<!-- link for bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- link for main js -->
+	<script src="js/main.js"></script>
+	<!-- link for carouseller js -->
+	<script src="js/carouseller.min.js"></script>
+	<!-- link for easing js -->
+	<script src="js/easing.js"></script>
+	<!-- link for animate js -->
+	<script src="js/wow.min.js"></script>
+	<script>
+	  new WOW().init();
+	</script>
+</body>
+</html>
